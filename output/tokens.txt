@@ -1,0 +1,33 @@
+Token: DOCTYPE, Lexema: "<!DOCTYPE html>", Línea: 1, Columna: 1
+Token: ETIQUETA_APERTURA, Lexema: "<html", Línea: 2, Columna: 1
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 2, Columna: 6
+Token: ETIQUETA_APERTURA, Lexema: "<head", Línea: 3, Columna: 1
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 3, Columna: 6
+Token: ETIQUETA_APERTURA, Lexema: "<title", Línea: 4, Columna: 5
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 4, Columna: 11
+Token: TEXTO, Lexema: "Mi Página", Línea: 4, Columna: 12
+Token: ETIQUETA_CIERRE, Lexema: "</title>", Línea: 4, Columna: 21
+Token: ETIQUETA_CIERRE, Lexema: "</head>", Línea: 5, Columna: 1
+Token: ETIQUETA_APERTURA, Lexema: "<body", Línea: 6, Columna: 1
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 6, Columna: 6
+Token: ETIQUETA_APERTURA, Lexema: "<h1", Línea: 7, Columna: 5
+Token: NOMBRE_ATRIBUTO, Lexema: "class=", Línea: 7, Columna: 9
+Token: VALOR_ATRIBUTO, Lexema: ""titulo"", Línea: 7, Columna: 15
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 7, Columna: 23
+Token: TEXTO, Lexema: "Bienvenidos", Línea: 7, Columna: 24
+Token: ETIQUETA_CIERRE, Lexema: "</h1>", Línea: 7, Columna: 35
+Token: ETIQUETA_APERTURA, Lexema: "<p", Línea: 8, Columna: 5
+Token: NOMBRE_ATRIBUTO, Lexema: "id=", Línea: 8, Columna: 8
+Token: VALOR_ATRIBUTO, Lexema: ""intro"", Línea: 8, Columna: 11
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 8, Columna: 18
+Token: TEXTO, Lexema: "Esta es una página de prueba.", Línea: 8, Columna: 19
+Token: ETIQUETA_CIERRE, Lexema: "</p>", Línea: 8, Columna: 48
+Token: COMENTARIO, Lexema: "<!-- Esto es un comentario -->", Línea: 9, Columna: 32
+Token: ETIQUETA_APERTURA, Lexema: "<a", Línea: 10, Columna: 5
+Token: NOMBRE_ATRIBUTO, Lexema: "href=", Línea: 10, Columna: 8
+Token: VALOR_ATRIBUTO, Lexema: ""https://example.com"", Línea: 10, Columna: 13
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 10, Columna: 34
+Token: TEXTO, Lexema: "Enlace", Línea: 10, Columna: 35
+Token: ETIQUETA_CIERRE, Lexema: "</a>", Línea: 10, Columna: 41
+Token: ETIQUETA_CIERRE, Lexema: "</body>", Línea: 11, Columna: 1
+Token: ETIQUETA_CIERRE, Lexema: "</html>", Línea: 12, Columna: 1
