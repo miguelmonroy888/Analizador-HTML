@@ -1,12 +1,15 @@
-Manual de Usuario - Analizador de HTML
+Manual de Usuario - Analizador de HTML  
+
 ¿Qué hace este programa?
 Este programa analiza documentos HTML (como los que se usan para crear páginas web) y los divide en sus partes más básicas. Es como tomar un texto y separarlo en palabras, signos de puntuación y espacios, pero para código HTML.
 
 Requisitos para usar el programa:
-Tener Java instalado en la computadora
+Tener Java instalado en la computadora  
+
 Tener el programa "Analizador HTML"
 
-Cómo usar el programa:
+Cómo usar el programa:  
+
 Paso 1: Preparar el archivo HTML a analizar
 1. Abrir la carpeta "Analizador HTML"
 2. Entra a la carpeta "src"
@@ -29,45 +32,50 @@ Paso 3: Ver los resultados
 
 En el archivo de resultado, cada linea representa una parte del HTML identificada:
 
-Token: Tipo de elemento HTML encontrado.
-Lexema: El texto exacto encontrado.
-Línea: El número de línea donde se encontró.
-Columna: La posición en la línea donde comienza.
+1. Token: Tipo de elemento HTML encontrado.
+2. Lexema: El texto exacto encontrado.
+3. Línea: El número de línea donde se encontró.
+4. Columna: La posición en la línea donde comienza.
 
 Tipos de elementos que puede identificar
-DOCTYPE
-ETIQUETA_APERTURA
-ETIQUTA_CIERRE
-NOMBRE_ATRIBUTO
-VALOR_ATRIBUTO
-TEXTO
-COMENTARIO
-ENTIDAD_HTML
-ERROR
-
+1. DOCTYPE
+2. ETIQUETA_APERTURA
+3. ETIQUTA_CIERRE
+4. NOMBRE_ATRIBUTO
+5. VALOR_ATRIBUTO
+6. TEXTO
+7. COMENTARIO
+8. ENTIDAD_HTML
+9. ERROR
+ 
 
 Para analizar otro archivos HTML:
 
-Analiza el primer archivo como se explicó anteriormente
-Antes de analizar otro, puedes renombrar el archivo "tokens.txt" (por ejemplo a "resultado1.txt") para no perder los resultados
-Edita nuevamente el archivo "entrada.html" con el nuevo contenido HTML
-Ejecuta el programa otra vez
+Analizar el primer archivo como se explicó anteriormente.  
+
+Antes de analizar otro, puedes renombrar el archivo "tokens.txt" (por ejemplo a "resultado1.txt") para no perder los resultados.  
+
+Editar nuevamente el archivo "entrada.html" con el nuevo contenido HTML.  
+
+Ejecutar el programa otra vez  
 
 
 Ejemplo de ejecución:
 1. Abrir "entrada.html"
 
 2. Copiar y pegar loo siguiente:
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Página de prueba</title>
-</head>
-<body>
-  <h1>Hola mundo</h1>
-</body>
-</html>
-
+```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Página de prueba</title>
+    </head>
+    <body>
+    <h1>Hola mundo</h1>
+    </body>
+    </html>
+  
+  
 3. Guardar el archivo.
 
 4. Ejecutar con java -cp classes analizador.Main
