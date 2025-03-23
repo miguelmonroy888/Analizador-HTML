@@ -1,33 +1,152 @@
-Token: DOCTYPE, Lexema: "<!DOCTYPE html>", Línea: 1, Columna: 1
-Token: ETIQUETA_APERTURA, Lexema: "<html", Línea: 2, Columna: 1
+Token: ETIQUETA_APERTURA, Lexema: "<html", Línea: 1, Columna: 1
+Token: NOMBRE_ATRIBUTO, Lexema: "lang=", Línea: 1, Columna: 7
+Token: VALOR_ATRIBUTO, Lexema: ""es"", Línea: 1, Columna: 12
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 1, Columna: 16
+Token: ETIQUETA_APERTURA, Lexema: "<head", Línea: 2, Columna: 1
 Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 2, Columna: 6
-Token: ETIQUETA_APERTURA, Lexema: "<head", Línea: 3, Columna: 1
-Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 3, Columna: 6
-Token: ETIQUETA_APERTURA, Lexema: "<title", Línea: 4, Columna: 5
-Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 4, Columna: 11
-Token: TEXTO, Lexema: "Mi Página", Línea: 4, Columna: 12
-Token: ETIQUETA_CIERRE, Lexema: "</title>", Línea: 4, Columna: 21
-Token: ETIQUETA_CIERRE, Lexema: "</head>", Línea: 5, Columna: 1
-Token: ETIQUETA_APERTURA, Lexema: "<body", Línea: 6, Columna: 1
-Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 6, Columna: 6
-Token: ETIQUETA_APERTURA, Lexema: "<h1", Línea: 7, Columna: 5
-Token: NOMBRE_ATRIBUTO, Lexema: "class=", Línea: 7, Columna: 9
-Token: VALOR_ATRIBUTO, Lexema: ""titulo"", Línea: 7, Columna: 15
-Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 7, Columna: 23
-Token: TEXTO, Lexema: "Bienvenidos", Línea: 7, Columna: 24
-Token: ETIQUETA_CIERRE, Lexema: "</h1>", Línea: 7, Columna: 35
-Token: ETIQUETA_APERTURA, Lexema: "<p", Línea: 8, Columna: 5
-Token: NOMBRE_ATRIBUTO, Lexema: "id=", Línea: 8, Columna: 8
-Token: VALOR_ATRIBUTO, Lexema: ""intro"", Línea: 8, Columna: 11
-Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 8, Columna: 18
-Token: TEXTO, Lexema: "Esta es una página de prueba.", Línea: 8, Columna: 19
-Token: ETIQUETA_CIERRE, Lexema: "</p>", Línea: 8, Columna: 48
-Token: COMENTARIO, Lexema: "<!-- Esto es un comentario -->", Línea: 9, Columna: 32
-Token: ETIQUETA_APERTURA, Lexema: "<a", Línea: 10, Columna: 5
-Token: NOMBRE_ATRIBUTO, Lexema: "href=", Línea: 10, Columna: 8
-Token: VALOR_ATRIBUTO, Lexema: ""https://example.com"", Línea: 10, Columna: 13
-Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 10, Columna: 34
-Token: TEXTO, Lexema: "Enlace", Línea: 10, Columna: 35
-Token: ETIQUETA_CIERRE, Lexema: "</a>", Línea: 10, Columna: 41
-Token: ETIQUETA_CIERRE, Lexema: "</body>", Línea: 11, Columna: 1
-Token: ETIQUETA_CIERRE, Lexema: "</html>", Línea: 12, Columna: 1
+Token: ETIQUETA_APERTURA, Lexema: "<meta", Línea: 3, Columna: 5
+Token: NOMBRE_ATRIBUTO, Lexema: "charset=", Línea: 3, Columna: 11
+Token: VALOR_ATRIBUTO, Lexema: ""UTF-8"", Línea: 3, Columna: 19
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 3, Columna: 26
+Token: ETIQUETA_APERTURA, Lexema: "<meta", Línea: 4, Columna: 5
+Token: NOMBRE_ATRIBUTO, Lexema: "name=", Línea: 4, Columna: 11
+Token: VALOR_ATRIBUTO, Lexema: ""viewport"", Línea: 4, Columna: 16
+Token: NOMBRE_ATRIBUTO, Lexema: "content=", Línea: 4, Columna: 27
+Token: VALOR_ATRIBUTO, Lexema: ""width=device-width, initial-scale=1.0"", Línea: 4, Columna: 35
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 4, Columna: 74
+Token: ETIQUETA_APERTURA, Lexema: "<title", Línea: 5, Columna: 5
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 5, Columna: 11
+Token: TEXTO, Lexema: "Prueba de Analizador Léxico", Línea: 5, Columna: 12
+Token: ETIQUETA_CIERRE, Lexema: "</title>", Línea: 5, Columna: 39
+Token: ETIQUETA_CIERRE, Lexema: "</head>", Línea: 6, Columna: 1
+Token: ETIQUETA_APERTURA, Lexema: "<body", Línea: 7, Columna: 1
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 7, Columna: 6
+Token: ETIQUETA_APERTURA, Lexema: "<header", Línea: 8, Columna: 5
+Token: NOMBRE_ATRIBUTO, Lexema: "class=", Línea: 8, Columna: 13
+Token: VALOR_ATRIBUTO, Lexema: ""header"", Línea: 8, Columna: 19
+Token: NOMBRE_ATRIBUTO, Lexema: "id=", Línea: 8, Columna: 28
+Token: VALOR_ATRIBUTO, Lexema: ""top"", Línea: 8, Columna: 31
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 8, Columna: 36
+Token: ETIQUETA_APERTURA, Lexema: "<h1", Línea: 9, Columna: 9
+Token: NOMBRE_ATRIBUTO, Lexema: "class=", Línea: 9, Columna: 13
+Token: VALOR_ATRIBUTO, Lexema: ""titulo-principal"", Línea: 9, Columna: 19
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 9, Columna: 37
+Token: TEXTO, Lexema: "Prueba de Analizador Léxico", Línea: 9, Columna: 38
+Token: ETIQUETA_CIERRE, Lexema: "</h1>", Línea: 9, Columna: 65
+Token: ETIQUETA_APERTURA, Lexema: "<nav", Línea: 10, Columna: 9
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 10, Columna: 13
+Token: ETIQUETA_APERTURA, Lexema: "<ul", Línea: 11, Columna: 13
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 11, Columna: 16
+Token: ETIQUETA_APERTURA, Lexema: "<li", Línea: 12, Columna: 17
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 12, Columna: 20
+Token: ETIQUETA_APERTURA, Lexema: "<a", Línea: 12, Columna: 21
+Token: NOMBRE_ATRIBUTO, Lexema: "href=", Línea: 12, Columna: 24
+Token: VALOR_ATRIBUTO, Lexema: ""#section1"", Línea: 12, Columna: 29
+Token: NOMBRE_ATRIBUTO, Lexema: "class=", Línea: 12, Columna: 41
+Token: VALOR_ATRIBUTO, Lexema: ""enlace"", Línea: 12, Columna: 47
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 12, Columna: 55
+Token: TEXTO, Lexema: "Sección 1", Línea: 12, Columna: 56
+Token: ETIQUETA_CIERRE, Lexema: "</a>", Línea: 12, Columna: 65
+Token: ETIQUETA_CIERRE, Lexema: "</li>", Línea: 12, Columna: 69
+Token: ETIQUETA_APERTURA, Lexema: "<li", Línea: 13, Columna: 17
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 13, Columna: 20
+Token: ETIQUETA_APERTURA, Lexema: "<a", Línea: 13, Columna: 21
+Token: NOMBRE_ATRIBUTO, Lexema: "href=", Línea: 13, Columna: 24
+Token: VALOR_ATRIBUTO, Lexema: ""#section2"", Línea: 13, Columna: 29
+Token: NOMBRE_ATRIBUTO, Lexema: "class=", Línea: 13, Columna: 41
+Token: VALOR_ATRIBUTO, Lexema: ""enlace"", Línea: 13, Columna: 47
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 13, Columna: 55
+Token: TEXTO, Lexema: "Sección 2", Línea: 13, Columna: 56
+Token: ETIQUETA_CIERRE, Lexema: "</a>", Línea: 13, Columna: 65
+Token: ETIQUETA_CIERRE, Lexema: "</li>", Línea: 13, Columna: 69
+Token: ETIQUETA_CIERRE, Lexema: "</ul>", Línea: 14, Columna: 13
+Token: ETIQUETA_CIERRE, Lexema: "</nav>", Línea: 15, Columna: 9
+Token: ETIQUETA_CIERRE, Lexema: "</header>", Línea: 16, Columna: 5
+Token: ETIQUETA_APERTURA, Lexema: "<main", Línea: 18, Columna: 5
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 18, Columna: 10
+Token: ETIQUETA_APERTURA, Lexema: "<section", Línea: 19, Columna: 9
+Token: NOMBRE_ATRIBUTO, Lexema: "id=", Línea: 19, Columna: 18
+Token: VALOR_ATRIBUTO, Lexema: ""section1"", Línea: 19, Columna: 21
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 19, Columna: 31
+Token: ETIQUETA_APERTURA, Lexema: "<h2", Línea: 20, Columna: 13
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 20, Columna: 16
+Token: TEXTO, Lexema: "Sección 1", Línea: 20, Columna: 17
+Token: ETIQUETA_CIERRE, Lexema: "</h2>", Línea: 20, Columna: 26
+Token: ETIQUETA_APERTURA, Lexema: "<p", Línea: 21, Columna: 13
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 21, Columna: 15
+Token: TEXTO, Lexema: "Este es un párrafo de ejemplo con una entidad HTML: ", Línea: 21, Columna: 16
+Token: ENTIDAD_HTML, Lexema: "&lt;", Línea: 21, Columna: 68
+Token: TEXTO, Lexema: " ", Línea: 21, Columna: 72
+Token: ENTIDAD_HTML, Lexema: "&gt;", Línea: 21, Columna: 73
+Token: TEXTO, Lexema: " ", Línea: 21, Columna: 77
+Token: ENTIDAD_HTML, Lexema: "&amp;", Línea: 21, Columna: 78
+Token: TEXTO, Lexema: " ", Línea: 21, Columna: 83
+Token: ENTIDAD_HTML, Lexema: "&quot;", Línea: 21, Columna: 84
+Token: TEXTO, Lexema: " ", Línea: 21, Columna: 90
+Token: ENTIDAD_HTML, Lexema: "&apos;", Línea: 21, Columna: 91
+Token: TEXTO, Lexema: ".", Línea: 21, Columna: 97
+Token: ETIQUETA_CIERRE, Lexema: "</p>", Línea: 21, Columna: 98
+Token: ETIQUETA_APERTURA, Lexema: "<p", Línea: 22, Columna: 13
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 22, Columna: 15
+Token: TEXTO, Lexema: "Otro párrafo con un ", Línea: 22, Columna: 16
+Token: ETIQUETA_APERTURA, Lexema: "<a", Línea: 22, Columna: 36
+Token: NOMBRE_ATRIBUTO, Lexema: "href=", Línea: 22, Columna: 39
+Token: VALOR_ATRIBUTO, Lexema: ""https://example.com"", Línea: 22, Columna: 44
+Token: NOMBRE_ATRIBUTO, Lexema: "target=", Línea: 22, Columna: 66
+Token: VALOR_ATRIBUTO, Lexema: ""_blank"", Línea: 22, Columna: 73
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 22, Columna: 81
+Token: TEXTO, Lexema: "enlace", Línea: 22, Columna: 82
+Token: ETIQUETA_CIERRE, Lexema: "</a>", Línea: 22, Columna: 88
+Token: TEXTO, Lexema: ".", Línea: 22, Columna: 92
+Token: ETIQUETA_CIERRE, Lexema: "</p>", Línea: 22, Columna: 93
+Token: COMENTARIO, Lexema: "<!-- Este es un comentario dentro de la sección 1 -->", Línea: 23, Columna: 63
+Token: ETIQUETA_CIERRE, Lexema: "</section>", Línea: 24, Columna: 9
+Token: ETIQUETA_APERTURA, Lexema: "<section", Línea: 26, Columna: 9
+Token: NOMBRE_ATRIBUTO, Lexema: "id=", Línea: 26, Columna: 18
+Token: VALOR_ATRIBUTO, Lexema: ""section2"", Línea: 26, Columna: 21
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 26, Columna: 31
+Token: ETIQUETA_APERTURA, Lexema: "<h2", Línea: 27, Columna: 13
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 27, Columna: 16
+Token: TEXTO, Lexema: "Sección 2", Línea: 27, Columna: 17
+Token: ETIQUETA_CIERRE, Lexema: "</h2>", Línea: 27, Columna: 26
+Token: ETIQUETA_APERTURA, Lexema: "<p", Línea: 28, Columna: 13
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 28, Columna: 15
+Token: TEXTO, Lexema: "Este es otro párrafo con más entidades: ", Línea: 28, Columna: 16
+Token: ENTIDAD_HTML, Lexema: "&lt;", Línea: 28, Columna: 56
+Token: TEXTO, Lexema: "html", Línea: 28, Columna: 60
+Token: ENTIDAD_HTML, Lexema: "&gt;", Línea: 28, Columna: 64
+Token: TEXTO, Lexema: " ", Línea: 28, Columna: 68
+Token: ENTIDAD_HTML, Lexema: "&amp;", Línea: 28, Columna: 69
+Token: TEXTO, Lexema: " ", Línea: 28, Columna: 74
+Token: ENTIDAD_HTML, Lexema: "&quot;", Línea: 28, Columna: 75
+Token: TEXTO, Lexema: "body", Línea: 28, Columna: 81
+Token: ENTIDAD_HTML, Lexema: "&quot;", Línea: 28, Columna: 85
+Token: TEXTO, Lexema: ".", Línea: 28, Columna: 91
+Token: ETIQUETA_CIERRE, Lexema: "</p>", Línea: 28, Columna: 92
+Token: ETIQUETA_APERTURA, Lexema: "<p", Línea: 29, Columna: 13
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 29, Columna: 15
+Token: TEXTO, Lexema: "Un párrafo con ", Línea: 29, Columna: 16
+Token: ETIQUETA_APERTURA, Lexema: "<strong", Línea: 29, Columna: 31
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 29, Columna: 38
+Token: TEXTO, Lexema: "texto en negrita", Línea: 29, Columna: 39
+Token: ETIQUETA_CIERRE, Lexema: "</strong>", Línea: 29, Columna: 55
+Token: TEXTO, Lexema: "y ", Línea: 29, Columna: 65
+Token: ETIQUETA_APERTURA, Lexema: "<em", Línea: 29, Columna: 67
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 29, Columna: 70
+Token: TEXTO, Lexema: "texto en cursiva", Línea: 29, Columna: 71
+Token: ETIQUETA_CIERRE, Lexema: "</em>", Línea: 29, Columna: 87
+Token: TEXTO, Lexema: ".", Línea: 29, Columna: 92
+Token: ETIQUETA_CIERRE, Lexema: "</p>", Línea: 29, Columna: 93
+Token: COMENTARIO, Lexema: "<!-- Otro comentario aquí -->", Línea: 30, Columna: 39
+Token: ETIQUETA_CIERRE, Lexema: "</section>", Línea: 31, Columna: 9
+Token: ETIQUETA_CIERRE, Lexema: "</main>", Línea: 32, Columna: 5
+Token: ETIQUETA_APERTURA, Lexema: "<footer", Línea: 34, Columna: 5
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 34, Columna: 12
+Token: ETIQUETA_APERTURA, Lexema: "<p", Línea: 35, Columna: 9
+Token: CIERRE_ETIQUETA, Lexema: ">", Línea: 35, Columna: 11
+Token: ENTIDAD_HTML, Lexema: "&copy;", Línea: 35, Columna: 12
+Token: TEXTO, Lexema: " 2025 Prueba de Analizador Léxico. Todos los derechos reservados.", Línea: 35, Columna: 18
+Token: ETIQUETA_CIERRE, Lexema: "</p>", Línea: 35, Columna: 83
+Token: ETIQUETA_CIERRE, Lexema: "</footer>", Línea: 36, Columna: 5
+Token: ETIQUETA_CIERRE, Lexema: "</body>", Línea: 37, Columna: 1
+Token: ETIQUETA_CIERRE, Lexema: "</html>", Línea: 38, Columna: 1
