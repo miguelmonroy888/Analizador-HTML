@@ -1,3 +1,7 @@
+//Miguel Andres Monroy Najera
+//Carne: 202302407
+//Analizador lexic HTML
+
 package analizador;
 
 import java.io.*;
